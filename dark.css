@@ -4897,6 +4897,26 @@ span.match {
     color: #949494;
 }
 
+.c-member_slug--link
+{
+  background: #242424;
+  border-color: #575757;
+  color: #c26363 !important;
+}
+
+.c-member_slug--link:hover
+{
+  text-decoration: none;
+  background: #444444;
+  color: #c24545 !important;
+}
+
+.c-member_slug--mention, .c-member_slug--mention:hover
+{
+  background: #242424;
+  color: #c26363 !important;
+}
+
 .c-member__display-name, .c-team__display-name, .c-usergroup__handle {
     color: #c7c7c7;
 }
