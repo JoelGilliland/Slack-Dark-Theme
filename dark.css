@@ -1911,8 +1911,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] {
     color: #949494;
 }
 
-.c-message__body .c-mrkdwn__mention, .c-message__body .c-mrkdwn__broadcast--mention {
-    color: #949494;
+.c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__highlight, .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__user_group--mention, .c-mrkdwn__user_group--mention:hover {
+    background: #3d3d3d;
+    color: #ff4040 !important;
 }
 
 .c-message__label {
@@ -4900,21 +4901,19 @@ span.match {
 .c-member_slug--link
 {
   background: #3d3d3d;
-  border: 1px solid #b1b1b1;
   color: #9f63c2 !important;
 }
 
 .c-member_slug--link:hover
 {
   text-decoration: none;
-  background: #444444;
-  color: #c24545 !important;
+  background: #888888;
+  color: #621d8a !important;
 }
 
 .c-member_slug--mention, .c-member_slug--mention:hover
 {
   background: #3d3d3d;
-  border: 1px solid #b1b1b1;
   color: #ff4040 !important;
 }
 
